@@ -1,11 +1,11 @@
-# resched_jd242
+# toolchain_failure_localization_schema_check
 
 **校验训练资源调度工程师·多轮工具链的失败定位的字段结构并列出缺失项。**
 
-`resched_jd242` —— 从样本里推断训练资源调度工程师·多轮工具链的失败定位应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
+`toolchain_failure_localization_schema_check` —— 从样本里推断训练资源调度工程师·多轮工具链的失败定位应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`resched_jd242.py` 拷走就能用
+- 单文件，`toolchain_failure_localization_schema_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install shahbah80-resched_jd242
+pip install shahbah80-toolchain_failure_localization_schema_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-resched_jd242 --help
+toolchain_failure_localization_schema_check --help
 ```
 
-也可以不用安装，直接把 `resched_jd242.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `toolchain_failure_localization_schema_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ resched_jd242 --help
 ## 用法
 
 ```bash
-python resched_jd242.py --file input.txt
-python resched_jd242.py --text "示例内容"
-python resched_jd242.py --file input.txt --json
+python toolchain_failure_localization_schema_check.py --file input.txt
+python toolchain_failure_localization_schema_check.py --text "示例内容"
+python toolchain_failure_localization_schema_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python resched_jd242.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_resched_jd242.py
+python test_toolchain_failure_localization_schema_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_resched_jd242.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/shahbah80/resched_jd242>
+- GitHub 仓库：<https://github.com/shahbah80/toolchain_failure_localization_schema_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_resched_jd242.py
 shahbah80 做训练资源调度工程师·多轮工具链的失败定位相关的问题，方向对标Mistral AI的专家训练资源调度工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://shahbah80.github.io>
-- 仓库：<https://github.com/shahbah80/resched_jd242>
+- 仓库：<https://github.com/shahbah80/toolchain_failure_localization_schema_check>
 
 ## 许可
 

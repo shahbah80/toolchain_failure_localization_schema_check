@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shahbah80-resched_jd242"
+name = "shahbah80-toolchain_failure_localization_schema_check"
 version = "0.1.0"
 description = "从样本里推断训练资源调度工程师·多轮工具链的失败定位应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://shahbah80.github.io"
-Repository = "https://github.com/shahbah80/resched_jd242"
-Issues = "https://github.com/shahbah80/resched_jd242/issues"
+Repository = "https://github.com/shahbah80/toolchain_failure_localization_schema_check"
+Issues = "https://github.com/shahbah80/toolchain_failure_localization_schema_check/issues"
 
 [project.scripts]
-resched_jd242 = "resched_jd242:main"
+toolchain_failure_localization_schema_check = "toolchain_failure_localization_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd242"]
+py-modules = ["toolchain_failure_localization_schema_check"]
